@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.berkepvp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "NameTagStorageMixin",
+    "TextDisplayRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

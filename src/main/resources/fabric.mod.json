@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "berkepvpclient",
+  "version": "${version}",
+  "name": "BerkePvPClient",
+  "description": "Client-side PvP utility: renders player health, armor durability, and names above heads with configurable toggles.",
+  "authors": [
+    "Berke"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.berkepvp.BerkePvpClient"
+    ]
+  },
+  "mixins": [
+    "berkepvpclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
